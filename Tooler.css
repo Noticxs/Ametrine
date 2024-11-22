@@ -12,7 +12,7 @@ body {
 
 header {
     background: linear-gradient(45deg, #2e103a, #cc9600); /* Ametrine inspired gradient */
-    color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
     height: 100vh;
     display: flex;
     align-items: center;
