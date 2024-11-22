@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(45deg, #9d50bb, #f7c731); /* Ametrine inspired gradient */
+    background: linear-gradient(45deg, #2e103a, #cc9600); /* Ametrine inspired gradient */
     color: rgba(255, 255, 255, 0);
     height: 200vh;
     display: flex;
