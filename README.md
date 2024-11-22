@@ -6,7 +6,7 @@ Welcome to Ametrine, The best free software company with quality premium product
 
 ## Why did we start this company
 
-We started this company to fix the biggest problem with software in today's socioty - Paywalls.
+We started this company to fix the biggest problem with software in today's society - Paywalls.
 So we decided to start this company to provide software to all people free of charge forever.
 Our products will always be free without any hidden fees or subscriptions to allow anybody to
 use the software they want and or need.
