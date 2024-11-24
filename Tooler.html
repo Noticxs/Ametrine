@@ -7,6 +7,37 @@
         <title>Ametrine</title>
         <link rel="icon" type="image/png" href="ametrine.png">
         <link rel="stylesheet" href="Tooler.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            p.dotted { border-style: dotted; }
+            p.dashed { border-style: dashed; }
+            p.solid { border-style: solid; }
+            p.double { border-style: double; }
+            p.groove { border-style: groove; }
+            p.ridge { border-style: ridge; }
+            p.inset { border-style: inset; }
+            p.outset { border-style: outset; }
+            p.none { border-style: none; }
+            p.hidden { border-style: hidden; }
+            p.mix { border-style: dotted dashed solid double; }
+
+            /* Flexbox to position image beside the paragraph */
+            .content {
+                display: flex;
+                align-items: flex-start;
+                padding: 20px;
+            }
+
+            .content img {
+                max-width: 150px;
+                margin-right: 20px;
+            }
+
+            .content .text {
+                max-width: 600px;
+            }
+
+        </style>
     </head>
 
     <body>
@@ -15,51 +46,54 @@
                 <a href="index.html" class="logo">Ametrine</a>
                 <ul class="nav-links">
                     <li><a href="products.html">Products</a></li>
-                    <li><a href="projects.html">Projects</a></li>                    
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://patreon.com/AmetrineCompany">Donate ❤️</a></li>
                 </ul>
             </nav>
 
-            <div class="title">
-                <h1>Ametrine Tooler</h1>
-            <p>The Ametrine Tooler is an advanced, intelligent assistant designed to enhance productivity, streamline processes, and simplify complex tasks across various domains. It embodies Ametrine's core ethos of combining cutting-edge technology with accessibility, providing powerful and easy-to-use solutions for everyone.</p>
-
-            <h2>AI-Powered Support for Complex Tasks</h2>
-            <p>At its core, the Ametrine Tooler is built to tackle a wide range of challenges, making tasks easier for professionals in various fields:</p>
-            <ul>
-                <li><strong>Coding Assistance:</strong> Ideal for developers, it integrates seamlessly with coding tasks. Features include syntax checking, bug identification, and code refactoring. The Tooler helps ensure the quality of your code, whether you're working with Python, web development, or more complex frameworks.</li>
-                <li><strong>Data Analysis:</strong> Simplifies data-heavy tasks by processing and analyzing information. From basic data cleaning to advanced statistical analysis and visualization, the Ametrine Tooler helps make sense of complex data sets.</li>
-                <li><strong>Creative Brainstorming:</strong> The Tooler fuels creativity by generating ideas, refining concepts, and drafting content. It's perfect for brainstorming new app features, writing blog posts, or creating design inspiration.</li>
-                <li><strong>Task and Project Management:</strong> Beyond coding and brainstorming, the Tooler helps you stay organized with task tracking, reminders, deadline management, and prioritization—ensuring no detail is missed.</li>
-            </ul>
-
-            <h2>Continuously Evolving and Adapting to Your Needs</h2>
-            <p>What truly sets the Ametrine Tooler apart is its ability to learn and grow alongside its users. By continuously improving based on feedback and new inputs, the Tooler ensures that it stays relevant for a broad range of tasks, making it not just a tool for today, but a long-term partner for your productivity and success.</p>
-
-            <h2>A Seamless, User-Friendly Experience</h2>
-            <p>The Ametrine Tooler is designed to be intuitive and easy to use, even for those without a technical background. With clear instructions, suggestions, and actionable feedback, it ensures that users of all skill levels can leverage its full potential.</p>
-
-            <h2>Key Features</h2>
-            <ul>
-                <li><strong>Intuitive Interaction:</strong> The Tooler communicates clearly and is easy to navigate, offering straightforward suggestions and results to keep you on track.</li>
-                <li><strong>Real-Time Assistance:</strong> Get instant feedback on your coding tasks, project management, or data analysis, allowing you to stay productive without delays.</li>
-                <li><strong>Cross-Disciplinary Support:</strong> Whether you're coding, analyzing data, managing projects, or brainstorming, the Tooler seamlessly integrates all these tasks, enabling you to shift between them effortlessly.</li>
-                <li><strong>Affordable and Accessible:</strong> In line with Ametrine’s values, the Tooler provides powerful, high-quality features at an accessible price point, making it ideal for small businesses, independent developers, or anyone seeking to streamline their workflow.</li>
-            </ul>
-
-            <h2>Built with Ametrine’s Core Values</h2>
-            <p>The Ametrine Tooler upholds Ametrine’s commitment to providing premium, affordable solutions. It offers a comprehensive suite of tools that make even the most complex tasks effortless—without the need for expensive software or additional subscriptions.</p>
-
-            <h2>More Than Just an Assistant</h2>
-            <p>The Ametrine Tooler is more than just a productivity assistant; it’s a versatile and adaptive tool that empowers users across all fields. Always evolving, always improving, and always ready to help you achieve more—whether you're coding, managing projects, analyzing data, or generating creative ideas.</p>
+            <div class="Title" style="align-self: baseline; padding-left: 40px;">
+                <a style="font-size: xxx-large; font-weight: 800; padding-right: 40px;">Tooler</a>
+                <a style="text-decoration: none !important; font-weight: 800; font-size: large;" href="Tooler/Tooler.zip">Download</a>
             </div>
 
+            <div class="content" style="align-self: baseline; padding-left: 200px;">
 
+                <div class="text">
+                    <p>Welcome to Ametrine's Tooler - The best package-manager for you.</p>
+                    <p>Tooler can download packages, upload packages, search the web, -</p>
+                    <p>Connect to AI models (such as Google Gemini and ChatGPT) for the</p>
+                    <p>best help as you're working on an important project.</p>
+                </div>
 
+                <div style="padding-left: 500px;">
+                    <img src="ametrine.png" alt="Ametrine Logo">
+                </div>
+            </div>
 
+            <div class="content" style="align-self: baseline; padding-left: 200px;">
+                <table>
+                    <tr>
+                        <th>Features of Tooler</th>
+                    </tr>
+                    <tr>
+                        <td>Google and Wikipedia search directly from the CLI</td>
+                    </tr>
+                    <tr>
+                        <td>Downloading Ametrine software packages</td>
+                    </tr>
+                    <tr>
+                        <td>Send requests and get answers directly from Gemini and ChatGPT</td>
+                    </tr>
+                </table>
+            </div>
 
         </header>
 
+        <footer>
+            <p>&copy; 2024 Ametrine Software. All rights reserved.</p>
+            <p>Email us at: <a href="mailto:business@ametrine.cc?subject=Hello&body=What are you working on?">business@ametrine.cc</a></p>
+        </footer> 
+
     </body>
-    
+
+
 </html>

@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(45deg, #c580e0, #cfaa43); /* Ametrine inspired gradient */
+    background: linear-gradient(55deg, #2f093e, #b48a16); /* Ametrine inspired gradient */
     color: white;
     height: 100vh;
     display: flex;
@@ -71,8 +71,8 @@ a {
 }
 
 .btn {
-    background-color: #f7c731;
-    color: #9d50bb;
+    background-color: #b48a16;
+    color: #2f093e;
     padding: 10px 20px;
     border: none;
     font-size: 1.2rem;
@@ -82,8 +82,8 @@ a {
 }
 
 .btn:hover {
-    background-color: #9d50bb;
-    color: #f7c731;
+    background-color: #2f093e;
+    color: #b48a16;
 }
 
 .section {
@@ -99,7 +99,7 @@ a {
 h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #9d50bb;
+    color: #2f093e;
 }
 
 .services-grid {
@@ -109,13 +109,13 @@ h2 {
 }
 
 .service {
-    background: #f7c731;
+    background: #b48a16;
     padding: 20px;
     border-radius: 10px;
 }
 
 .service h3 {
-    color: #9d50bb;
+    color: #2f093e;
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
@@ -130,7 +130,7 @@ h2 {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #9d50bb;
+    border: 1px solid #2f093e;
 }
 
 .contact-form button {
@@ -141,5 +141,32 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly with space */
+    align-items: center;          /* Align items vertically */
+    padding: 10px 20px;
+    background: linear-gradient(55deg, #20062b, #957213);;
+
+}
+
+footer p {
+    margin: 0; /* Remove default paragraph margin */
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p a {
+    text-decoration: none !important;
+    color: white;
 }
