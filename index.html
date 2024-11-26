@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ametrine</title>
-    <link rel="icon" type="image/png" href="ametrine.png">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ametrine</title>
+        <link rel="icon" type="image/png" href="ametrine.png">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
     <header>
         <nav>
             <a href="index.html" class="logo">Ametrine</a>
             <ul class="nav-links">
-                <li><a href="products.html">Products</a></li>
                 <li><a href="https://patreon.com/AmetrineCompany">Donate ❤️</a></li>               
             </ul>
         </nav>
-        <section id="home" class="hero">
-            <div class="hero-text">
-                <h1>Free Software for Everyone</h1>
-                <p>Empowering you with open-source & accessible solutions.</p>
-                <a href="projects.html" class="btn">Learn More</a>
 
-
-            </div>
-
-        </section>
+        <div>
+            <h1>Sorry about the inconvenience.</h1>
+            <p>We are currently working on some updates to our website. Sorry for the inconvenience.</p>
+            <p>The website will be back online in:</p>
+            <div id="timer" style="font-size: 1.5em; font-weight: bold; align-self: baseline; padding-left: 300px;"></div>
+        </div>
     </header>
 
     <footer>
@@ -34,6 +30,29 @@
         <p>Email us at: <a href="mailto:business@ametrine.cc?subject=Hello&body=What are you working on?">business@ametrine.cc</a></p>
     </footer>
 
-    <script src="script.js"></script>
-</body>
+    <script>
+        // Set the target date and time for the countdown
+        const targetDate = new Date("2024-12-01T00:00:00").getTime();
+
+        // Update the timer every second
+        const timerInterval = setInterval(() => {
+            const now = new Date().getTime();
+            const timeRemaining = targetDate - now;
+
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+            // Display the result in the "timer" element
+            document.getElementById("timer").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            // If the countdown is finished, clear the interval and display a message
+            if (timeRemaining < 0) {
+                clearInterval(timerInterval);
+                document.getElementById("timer").innerHTML = "We're back online!";
+            }
+        }, 1000);
+    </script>
 </html>
