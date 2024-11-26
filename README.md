@@ -17,9 +17,8 @@ use the software they want and or need.
 | New software we are working on    | Estimated time of release | Delayed or On Time    | Platform availability |
 | -------- | ------- | -------- | ------- |
 | Ametrine's Tooler | 10 December 2024     | On-Time  | Windows 10/11, Linux |
-| Ametrine Music   | 10 December 2024   | On-Time  | Windows 10/11, Linux |
-| Ametrine's File Folio   | 26 February 2025   | On-Time | Windows 10/11, Linux |
-
+| Ametrine's File Folio   | 26 February 2025   | Delayed | Windows 10/11, Linux |
+| Ametrine Music   | 10 March 2025   | Delayed  | Windows 10/11, Linux |
 
 ## What we are planning to make next ( Hopefully )
 
